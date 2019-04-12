@@ -12,8 +12,7 @@ end
 def reverse_each_word (message)
   
   arr_message = message.split
-  rev_message = []
-  
+
   rev_message = arr_message.collect do |word|
    word.reverse
   end
