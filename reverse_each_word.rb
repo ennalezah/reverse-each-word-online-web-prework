@@ -9,7 +9,7 @@ end
 
 def reverse_each_word (message)
   
-  message = message.join(" ")
+  str_message = message.split(" ")
   rev_message = []
   
   message.each each do |word|
