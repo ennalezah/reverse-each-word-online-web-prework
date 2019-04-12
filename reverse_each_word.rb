@@ -9,6 +9,7 @@ end
 
 def reverse_each_word (message)
   
+  message.join(" ")
   rev_message = []
   
   message.each do |word|
