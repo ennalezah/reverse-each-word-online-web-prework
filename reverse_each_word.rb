@@ -9,12 +9,12 @@ def reverse_each_word (message)
   rev_message.join(" ")
 end
 
-def reverse_each_word (message)
+# def reverse_each_word (message)
   
-  arr_message = message.split
+#   arr_message = message.split
   
-  arr_message.collect do |word|
-    word.reverse
-  end
+#   arr_message.collect do |word|
+#     word.reverse
+#   end
 
-end
+# end
