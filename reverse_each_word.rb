@@ -8,6 +8,7 @@ def reverse_each_word (message)
 end
 
 def reverse_each_word (message)
+  
   rev_message = []
   
   message.each do |word|
