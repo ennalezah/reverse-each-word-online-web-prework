@@ -12,16 +12,11 @@ end
 def reverse_each_word (message)
   
   arr_message = message.split
+  rev_message = []
   
-  arr_message.collect do |word|
-    rword.reverse
+  rev_message = arr_message.collect do |word|
+   word.reverse
   end
   
   return rev_message.join(" ")
-end
-
-def change_nums(nums)
-  nums.collect do |x| 
-    x + 1
-  end
 end
