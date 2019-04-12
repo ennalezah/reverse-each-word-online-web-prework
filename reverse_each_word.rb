@@ -16,5 +16,5 @@ def reverse_each_word (message)
     word.reverse_each_word
     rev_message << word
   end
-  rev_message
+  rev_message.joins
 end
