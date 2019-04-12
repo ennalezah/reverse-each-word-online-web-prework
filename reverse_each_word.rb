@@ -13,8 +13,7 @@ def reverse_each_word (message)
   rev_message = []
   
   arr_message.each each do |word|
-    word.reverse_each_word
-    rev_message << word
+    rev_message << word.reverse
   end
-  rev_message.joins
+  rev_message.joins(" ")
 end
