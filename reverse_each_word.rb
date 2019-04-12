@@ -7,3 +7,4 @@ def reverse_each_word (message)
   end
 
   arr_message.to_s
+end
