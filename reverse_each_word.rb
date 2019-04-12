@@ -9,9 +9,10 @@ end
 
 def reverse_each_word (message)
   rev_message = []
-  nums.each do |x|
-    x += 1
-    new_count << x
+  
+  message.each do |word|
+    word.reverse_each_word
+    rev_message << word
   end
-  new_count
+  rev_message
 end
