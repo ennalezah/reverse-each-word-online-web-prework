@@ -1,6 +1,6 @@
 def reverse_each_word (message)
   
-  message.split.each do |word|
+  message.split(" ").each do |word|
     word.reverse
   end
 end
